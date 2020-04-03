@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.company.unit.core.SimpleLoggerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-03T12:38:09" hostname="DESKTOP-J80JRPV" time="0.018">
+  <properties/>
+  <testcase name="differentLoggings()" classname="com.company.unit.core.SimpleLoggerTest" time="0.018"/>
+  <system-out><![CDATA[LogbackConfigurator INFO Setting up CUBA default logging configuration
+LogbackConfigurator INFO Could NOT find resource [app-logback.xml]
+LogbackConfigurator INFO Configuring console output with WARN threshold
+17:38:09.071 [Test worker] WARN com.company.unit.core.SimpleLoggerTest - warn
+17:38:09.073 [Test worker] ERROR com.company.unit.core.SimpleLoggerTest - error
+17:38:09.073 [Test worker] WARN com.company.unit.core.SimpleLogger - warn
+17:38:09.073 [Test worker] ERROR com.company.unit.core.SimpleLogger - error
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
